@@ -1,0 +1,23 @@
+.navbar-brand{
+    /* margin-right: 10px; */
+    padding-right: 13px;
+}
+.header{
+    font-size: 20px !important;
+}
+.navbar-brand:hover{
+   color: blue;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid blue;
+    color: blue !important;
+    transition: 0.7s width ease-in-out;
+}
+.dropdown-item:hover{
+    border-left: 2px solid blue;
+    color: blue;
+
+}
+.hover:hover{
+    border-bottom: 2px solid blue;
+}
