@@ -3,9 +3,9 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Products from "./Components/Products";
-// import Services from "./Components/Services";
 import { 
   BrowserRouter ,Switch, Route} from "react-router-dom";
+import error from "./Components/error";
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/" component={Home}/>
       <Route exact path="/about" component={About}/>
       <Route exact path="/Products" component={Products}/>
+      <Route component={error}/>
   </Switch>
   <Footer/>
     </BrowserRouter>
